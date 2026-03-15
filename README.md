@@ -1,16 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+My new React project. In this project, we have a small application where users can input their information and generate a CV.  
+ 
+The structure:
+A section to add general information like name, email and phone number.
+A section to add your educational experience (school name, title of study and date of study)
+A section to add practical experience (company name, position title, main responsibilities of your jobs, date from and until when you worked for that company)
+An edit and submit button for each section. The submit button submits the form and display the value of the input fields in HTML elements. The edit button adds back (display) the input fields, with the previously displayed information as values. 
+We have a heavy use of state and props.  
