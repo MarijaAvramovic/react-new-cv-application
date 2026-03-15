@@ -13,8 +13,10 @@ function GeneralInfo() {
   setEdit(false)
 }
 
+if (edit) {
+
   return (
-    <form>
+    <form  onSubmit={handleSubmit}>
 
       <h2>General Information</h2>
 
@@ -40,6 +42,22 @@ function GeneralInfo() {
 
     </form>
   )
+}
+
+return (
+  <div>
+
+    <h2>General Info</h2>
+
+    <p>{name}</p>
+    <p>{email}</p>
+    <p>{phone}</p>
+
+    <button onClick={() => setEdit(true)}>Edit</button>
+
+  </div>
+)
+ 
 }
 
 export default GeneralInfo
