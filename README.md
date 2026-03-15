@@ -1,4 +1,6 @@
-My new React project. In this project, we have a small application where users can input their information and generate a CV.  
+My new React project. 
+https://react-new-cv-application.netlify.app/
+In this project, we have a small application where users can input their information and generate a CV.  
  
 The structure:
 A section to add general information like name, email and phone number.
